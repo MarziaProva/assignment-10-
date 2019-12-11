@@ -1,0 +1,40 @@
+@media only screen and (max-width: 992px) {
+    .cont a {
+        height: 37px;
+        width: 188px;
+        font-size: 21px;
+        margin-top: 24px;
+    }
+}
+
+@media only screen and (max-width: 768px) {
+    .cont h2 {
+        font-size: 22px;
+    }
+
+    .cont a {
+        margin: auto;
+        height: 27px;
+        width: 124px;
+        font-size: 12px;
+        margin-bottom: 31px;
+    }
+
+    #head {
+        margin: auto;
+        padding-bottom: 5px;
+        display: block;
+    }
+}
+
+@media only screen and (max-width: 570px) {
+    .brand {
+    margin-left: -44px;
+    margin-bottom: -68px;
+    text-align: center;
+}
+
+    .srcbox input[type="search"] {
+        margin-left: 137px;
+    }
+}

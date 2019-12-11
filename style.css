@@ -1,0 +1,208 @@
+/*top header start here*/
+#head {
+    background-color: black;
+
+
+}
+
+.row {
+    padding: 10px 0px;
+}
+
+#head a {
+    text-decoration: none;
+    color: white;
+
+
+}
+
+.icon i {
+    background-color: gray;
+    padding: 5px;
+    border-radius: 50%;
+    font-size: 14px;
+}
+
+.icon i:hover {
+    background-color: red;
+}
+
+/*top header End here*/
+
+/*Navbar start here*/
+.nav {
+    margin: 20px 10px;
+}
+
+.nav ul {
+    margin-left: -22px;
+}
+
+.nav li {
+    list-style-type: none;
+    float: left;
+
+
+}
+
+.nav li a {
+    color: black;
+    text-decoration: none;
+    padding: 0px 20px;
+    font-size: 20px;
+    border-bottom: 5px solid lightgray;
+    padding-bottom: 10px;
+    transition-duration: 0.5s;
+}
+
+.nav li a:hover {
+    color: lightgray;
+    padding-bottom: 10px;
+    border-bottom: 5px solid blue;
+}
+
+/*Navbar End here*/
+
+/*logo&src start here*/
+.srcbox {
+    margin-top: 60px;
+}
+
+.srcbox input {
+    border: none;
+}
+
+.srcbox input:focus {
+    outline: none;
+}
+
+.srcbox input[type=search] {
+    background: lightgray;
+    border-radius: 3px;
+    padding: 6px;
+}
+
+.srcbox input[type=button] {
+    padding: 6px;
+    width: 60px;
+    background: skyblue;
+    border-radius: 3px;
+}
+
+.slider {
+    background-color: lightgray;
+}
+
+.slider img {
+    display: block;
+    margin: auto;
+}
+
+.slider-text {
+    text-align: center;
+    margin-top: 90px;
+}
+
+.slider-text h4 {
+    text-transform: uppercase;
+    font-weight: 800;
+}
+
+/*logo&src End here*/
+
+
+/*service start */
+.service {
+    text-align: center;
+    font-size: 14px;
+}
+
+.service i {
+    font-size: 70px;
+    color: lightgray;
+}
+
+/*service end */
+.cont {
+    padding: 20px;
+    border-left: 9px solid blue;
+    background: lightgray;
+    height: 80%;
+    width: 90%;
+    display: block;
+    margin: auto;
+}
+
+a.cont-btn {
+    border-radius: 25px;
+    background: blue;
+    width: 276px;
+    display: block;
+    height: 54px;
+    color: white;
+    text-decoration: none;
+    margin-top: 2px;
+    font-size: 32px;
+}
+
+#qclink p {
+    margin: 0px;
+    padding-bottom: 10px;
+    border-bottom: 1px solid #0a0a0a;
+}
+
+section.foot {
+    background: black;
+    color: white;
+    font-size: 14px;
+    line-height: 19px;
+}
+
+.foot input[type=text] {
+    width: 300px;
+    border-radius: 5px;
+    padding: 5px;
+    margin-bottom: 5px;
+    background-color: #111015;
+}
+
+.foot input[type=email] {
+    width: 300px;
+    border-radius: 5px;
+    padding: 5px;
+    margin-bottom: 5px;
+    background-color: #111015;
+}
+
+.foot textarea {
+    height: 100px;
+    width: 300px;
+    border-radius: 5px;
+    padding: 5px;
+    margin-bottom: 5px;
+    background-color: #111015;
+}
+
+.foot input[type=submit] {
+    width: 100px;
+    border-radius: 5px;
+    padding: 5px;
+    margin-bottom: 5px;
+}
+.form-group input:focus{
+    outline: none !importent;
+}
+
+
+
+
+
+
+@media only screen and (max-width: 992px) {
+    .cont a {
+        height: 37px;
+        width: 188px;
+        font-size: 21px;
+        margin-top: 24px;
+    }
+}
